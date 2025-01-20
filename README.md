@@ -1,2 +1,2 @@
-# RS-CT
-# RC-CT (2)
+# RS-CT 
+# ("Reservacion de Citas")
