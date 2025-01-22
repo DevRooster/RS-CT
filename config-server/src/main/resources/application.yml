@@ -9,15 +9,15 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/DevRooster/RS-CT.git # ruta del repositorio git
-          searchPaths: config-data
+          uri: https://github.com/DevRooster/RS-CT.git # ruta del repositorio git / repositorio
+          searchPaths: config-data  
           #username:
           #password:
-          default-label: main
+          default-label: main # Rama del repositorio
 
 
 
-
+  #Seguridad de config-server
   security:
     user:
       name: root
