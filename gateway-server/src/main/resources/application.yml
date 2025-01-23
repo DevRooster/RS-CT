@@ -1,0 +1,7 @@
+spring:
+    application:
+        name: ms-gateway-servicie
+    profiles:
+        active: development
+    config:
+        import: optional:configserver:http://root:202501@localhost:2025
